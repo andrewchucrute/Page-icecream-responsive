@@ -1,11 +1,21 @@
-# Page-icecream-responsive
-Página Ice cream com responsividade
+# ICE CREAM RESPONSIVE🚀
 
 
-![image](https://user-images.githubusercontent.com/103382295/187120695-b63d48ec-5a35-4d7d-9ea9-c798cf13f572.png)
+## 🛠️ Ferramentas 🛠️
+- HTML
+- CSS 
 
 
-![image](https://user-images.githubusercontent.com/103382295/187120794-1a614494-425f-483e-be72-b15355cf2b87.png)
+
+[Clique aqui para acessar!](https://andrewchucrute.github.io/Page-icecream-responsive/#)
 
 
-![image](https://user-images.githubusercontent.com/103382295/187120891-d79c85ca-0535-407f-b44a-e9fabde9eb86.png)
+
+
+![andrewchucrute github io_Page-icecream-responsive_ (2)](https://user-images.githubusercontent.com/103382295/193476002-0b184fc8-f1e7-49a7-8e77-8549f73e54dd.png)
+
+## RESPONSIVE TABLET
+![andrewchucrute github io_Page-icecream-responsive_ (3)](https://user-images.githubusercontent.com/103382295/193476051-3bab8c45-7b05-4071-b44b-bd622851e2d4.png)
+
+## RESPONSIVE MOBILE
+![andrewchucrute github io_Page-icecream-responsive_ (4)](https://user-images.githubusercontent.com/103382295/193476102-a6d7a9ec-0b23-414f-bb71-7a833e033470.png)
