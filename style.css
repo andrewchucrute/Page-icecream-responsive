@@ -50,17 +50,22 @@ header h1 {
     text-align: center;
 }
 
-header .titulo {
+header .title {
   background: #CBC0D3;
   height: 4.9rem;
   margin-top: 32px;
 }
+
+
+
+
+
 main {
     background-color: #EFF1FF;
-    gap: 3.2rem;
+
     text-align: center;
     display: grid;
-
+    gap: 2rem;
 }
 footer {
 
@@ -68,6 +73,17 @@ footer {
   font-size: 1.5rem;
 }
 
+.footer p {
+  font-size: 2rem;
+}
+
+.footer {
+
+
+  z-index: 1;
+  margin: 2rem;
+ text-align: center;
+}
 
 .subtitle {
     font-family: 'Palanquin';
@@ -79,12 +95,14 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
-    background: #EFF1FF;
-    padding-top: 6rem;
-    padding-bottom: 6.3rem;
+    margin: auto;
+    margin-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    min-height: 222px;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #8E9AAF;
 }
 
 
@@ -121,9 +139,7 @@ footer {
 
 .card1, .card2, .card3, .card4, .card5, .card6{
     position: relative;
-    width: 32rem;
     margin: 0 auto;
-    margin-bottom: 3.2rem;
   }
 
   .card1 img, .card3 img, .card5 img{
@@ -189,6 +205,36 @@ footer {
 
 /********************** MEDIA ***************/
 
+
+@media (min-width: 787px) {
+  .subtitle p  {
+ 
+    background-color: #8E9AAF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin-top: -1px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.05em;
+    height: 12rem;
+   padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
   @media (min-width: 900px) {
       main {
         padding-top: 2rem;
@@ -201,9 +247,7 @@ footer {
     position: relative;
 }
 
-footer {
-  display: none;
-}
+
 
 .card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img {
     height: 25rem;
@@ -213,7 +257,8 @@ footer {
     z-index: +1;
 }
 
-.subtitle {
+.subtitle  {
+ 
     background-color: #8E9AAF;
     font-family: 'Roboto';
     font-style: normal;
@@ -246,14 +291,26 @@ footer {
   @media (min-width: 1413px) {
  
 
+
+main .card4 img, main .card6 img, main .card2 img{
+  height: 400px;
+}
+
+.footer {
+  position: absolute;
+  bottom: -68px;
+}
+
+
+
 .page {
     display: flex;
  
 }
 
 .coluna1 {
-  height: 100%;
-
+    height: 100%;
+    z-index: 1;
     position: absolute;
     left: 0;
     display: flex;
@@ -297,6 +354,7 @@ footer {
   }
   
    main{
+   
     left: 38%;
     position: absolute;
     margin: 0 auto;
